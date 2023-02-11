@@ -25,7 +25,8 @@ setup(
         'console_scripts': [
             "publisher = turtlesim_test.publisher:main",
             "subscriber = turtlesim_test.subscriber:main",
-            "sub_pub = turtlesim_test.sub_pub:main"
+            "sub_pub = turtlesim_test.sub_pub:main",
+            "teleop_keyboard = turtlesim_test.teleop_keyboard:main",
         ],
     },
 )
